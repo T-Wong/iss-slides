@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CLEAN MARKUP = GOOD KARMA.
+      Hi source code lover,
+
+      you're a curious person and a fast learner ;)
+      Let's make something beautiful together. Contribute on Github:
+      https://github.com/webslides/webslides
+
+      Thanks!
+      -->
+
+    <!-- SEO -->
+    <title>Intra-Source Software</title>
+    <meta name="description" content="Intra-Source software presentation.">
+
+    <!-- URL CANONICAL -->
+    <!-- <link rel="canonical" href="http://your-url.com/permalink"> -->
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
+
+    <!-- CSS Base -->
+    <link rel="stylesheet" type="text/css" media="all" href="static/css/base.css">
+
+    <!-- CSS Colors -->
+    <link rel="stylesheet" type="text/css" media="all" href="static/css/colors.css">
+
+    <!-- Optional - CSS SVG Icons (Font Awesome) -->
+    <link rel="stylesheet" type="text/css" media="all" href="static/css/svg-icons.css">
+
+    <!-- FAVICONS -->
+    <link rel="shortcut icon" sizes="16x16" href="static/images/favicons/favicon.png">
+    <link rel="shortcut icon" sizes="32x32" href="static/images/favicons/favicon-32.png">
+    <link rel="apple-touch-icon icon" sizes="76x76" href="static/images/favicons/favicon-76.png">
+    <link rel="apple-touch-icon icon" sizes="120x120" href="static/images/favicons/favicon-120.png">
+    <link rel="apple-touch-icon icon" sizes="152x152" href="static/images/favicons/favicon-152.png">
+    <link rel="apple-touch-icon icon" sizes="180x180" href="static/images/favicons/favicon-180.png">
+    <link rel="apple-touch-icon icon" sizes="192x192" href="static/images/favicons/favicon-192.png">
+
+    <!-- Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#333333">
+  </head>
+  <body>
+    <header role="banner">
+      <nav role="navigation">
+        <ul>
+          <li class="github">
+            <a rel="external" href="https://github.com/T-Wong/iss-slides" title="Github">
+              <svg class="fa-github">
+                <use xlink:href="#fa-github"></use>
+              </svg>
+              <em>WebSlides</em>
+            </a>
+          </li>
+          <!--  <li class="dribbble"><a rel="external" href="http://dribbble.com/webslides" title="Dribbble"><svg class="fa-dribbble"><use xlink:href="#fa-dribbble"></use></svg> <em>webslides</em></a></li> -->
+        </ul>
+      </nav>
+    </header>
+    <main role="main">
+      <article id="webslides">
+
+        <!-- Quick Guide
+          - Each parent <section> in the <article id="webslides"> element is an individual slide.
+          - Vertical sliding = <article id="webslides" class="vertical">
+          - <div class="wrap"> = container 90% / <div class="wrap size-50"> = 45%;
+        -->
+
+        <section class="bg-black-blue aligncenter">
+         <span class="background-bottom dark" style="background-image:url('https://source.unsplash.com/Skf7HxARcoc/')"></span>
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap">
+            <h1 class="">Intra-Source Software:</h1>
+            <h1 class="">Building Effective Community-Driven Projects</h1>
+            <p class="text-symbols">* * *</p>
+            <p class="text-subtitle">By: Tyler Wong</p>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section class="bg-light">
+          <div class="wrap">
+            <h2>What Is Closed-Source Software?</h2>
+            <hr>
+            <div class="grid">
+              <div class="column">
+                <h3>
+                  <strong>
+                    <svg class="fa-times">
+                      <use xlink:href="#fa-times"></use>
+                    </svg>
+                    Not Publicly Available
+                  </strong>
+                </h3>
+                <p>The source code isn't publcily viewable or modifiable.</p>
+              </div>
+              <div class="column">
+                <h3>
+                  <strong>
+                    <svg class="fa-lock">
+                      <use xlink:href="#fa-lock"></use>
+                    </svg>
+                    Exclusive Rights
+                  </strong>
+                </h3>
+                <p>The software owner can restrict use, inspection, and redistribution.</p>
+              </div>
+              <div class="column">
+                <h3>
+                  <strong>
+                    <svg class="fa-user-secret">
+                      <use xlink:href="#fa-user-secret"></use>
+                    </svg>
+                    Trade Secrets
+                  </strong>
+                </h3>
+                <p>Source code is treated as trade secrets and are heavily guarded.</p>
+              </div>
+            </div>
+            <!-- end .grid-->
+            <hr>
+          </div>
+        </section>
+        <section>
+          <div class="wrap">
+            <h2>Examples of Closed-Source Software</h2>
+            <ul class="flexblock clients">
+              <li>
+                <a href="#">
+                  <figure>
+                    <img src="./static/images/logos/microsoft.svg" alt="Microsoft">
+                    <figcaption>
+                      <ul>
+                        <li>Microsoft Office</li>
+                        <li>Windows</li>
+                        <li>Visual Studio</li>
+                        <li>Internet Explorer/Edge</li>
+                      </ul>
+                    </figcaption>
+                  </figure>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <figure>
+                    <img src="./static/images/logos/adobe.svg" alt="Adobe">
+                    <figcaption>
+                      <ul>
+                        <li>Acrobat</li>
+                        <li>Photoshop</li>
+                        <li>Flash</li>
+                      </ul>
+                    </figcaption>
+                  </figure>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <figure>
+                    <img src="./static/images/logos/ibm.svg" width="150" alt="ibm">
+                    <figcaption>
+                      <ul>
+                        <li>AIX</li>
+                        <li>DB2</li>
+                        <li>WebSphere</li>
+                      </ul>
+                    </figcaption>
+                  </figure>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <figure>
+                    <img src="./static/images/logos/oracle.svg" width="275" alt="Oracle">
+                    <figcaption>
+                      <ul>
+                        <li>Solaris</li>
+                        <li>Oracle Database</li>
+                        <li>Fusion Middlware</li>
+                      </ul>
+                    </figcaption>
+                  </figure>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section class="bg-light">
+          <div class="wrap">
+            <h2>What Is Open-Source Software?</h2>
+            <hr>
+            <div class="grid">
+              <div class="column">
+                <h3>
+                  <strong>
+                    <svg class="fa-download">
+                      <use xlink:href="#fa-download"></use>
+                    </svg>
+                    Code Is Publicly Available
+                  </strong>
+                </h3>
+                <p>The source code is publicly viewable, modifiable, and enhanceable.</p>
+              </div>
+              <div class="column">
+                <h3>
+                  <strong>
+                    <svg class="fa-github">
+                      <use xlink:href="#fa-github"></use>
+                    </svg>
+                    Community Driven
+                  </strong>
+                </h3>
+                <p>The direction and development of the project is driven by members of the community.</p>
+              </div>
+              <div class="column">
+                <h3>
+                  <strong>
+                    <svg class="fa-comment">
+                      <use xlink:href="#fa-comment"></use>
+                    </svg>
+                    Meritocracy
+                  </strong>
+                </h3>
+                <p>The best ideas win and everyone has access to the same information.</p>
+              </div>
+            </div>
+            <!-- end .grid-->
+            <hr>
+          </div>
+        </section>
+        <section>
+          <div class="wrap">
+            <h2>Examples of Open-Source Software</h2>
+            <ul class="flexblock clients">
+              <li>
+                <a href="#">
+                  <figure>
+                    <img src="./static/images/logos/netflix.svg" alt="Netflix">
+                    <figcaption>
+                      <ul>
+                        <li>Eureka</li>
+                        <li>Zuul</li>
+                        <li>Chaos Monkey</li>
+                        <li>Hystrix</li>
+                      </ul>
+                    </figcaption>
+                  </figure>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <figure>
+                    <img src="./static/images/logos/facebook.svg" alt="Facebook">
+                    <figcaption>
+                      <ul>
+                        <li>React</li>
+                        <li>React Native</li>
+                        <li>Yarn</li>
+                      </ul>
+                    </figcaption>
+                  </figure>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <figure>
+                    <img src="./static/images/logos/google.svg" alt="Google">
+                    <figcaption>
+                      <ul>
+                        <li>TensorFlow</li>
+                        <li>Android</li>
+                        <li>Angular</li>
+                        <li>Go</li>
+                      </ul>
+                    </figcaption>
+                  </figure>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <figure>
+                    <img src="./static/images/logos/hashicorp.svg" width="275" alt="HashiCorp">
+                    <figcaption>
+                      <ul>
+                        <li>Terraform</li>
+                        <li>Vault</li>
+                        <li>Consul</li>
+                        <li>Vagrant</li>
+                      </ul>
+                    </figcaption>
+                  </figure>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section class="bg-white">
+          <div class="wrap">
+            <div class="content-center">
+              <h2><b>Intra-Source Software</b></h2>
+              <p>The integration and application of open-source best practices to closed-source projects to build effective community-driven software development projects.</p>
+            </div>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section>
+          <div class="wrap">
+            <div class="card-50 bg-white">
+              <figure>
+                <img src="static/images/contributor_funnel_mikemcquaid.png" alt="Contributer Funnel">
+                <figcaption>
+                  <a href="https://twitter.com/mikemcquaid">
+                    <svg class="fa-camera">
+                      <use xlink:href="#fa-camera"></use>
+                    </svg>
+                    Mike McQuaid
+                  </a>
+                </figcaption>
+              </figure>
+              <!-- end figure-->
+              <div class="flex-content">
+                <h2>
+                  Contributer Funnel
+                </h2>
+                <p>By: Mike McQuaid, maintainer of the Hombrew project for 7 years</p>
+                <p>
+                  The contributer funnel helps to visualize how a potential user might theoretically make their way to the bottom to become an active maintainer. The ultimate goal is to reduce friction between each stage of the contributer experience.
+                </p>
+                <ul class="description">
+                  <li><strong class="text-label">Users</strong>Users of the actual project</li>
+                  <li><strong class="text-label">Contributors</strong>Submits issues and submits pull requests</li>
+                  <li><strong class="text-label">Maintainers</strong>Actively maintain the project</li>
+                </ul>
+              </div>
+              <!-- end .flex-content-->
+            </div>
+            <!-- end .card-60-->
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section>
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap">
+            <div class="grid vertical-align">
+              <div class="column">
+                <h2><strong>Documentation</strong></h2>
+                <br>
+                <li><strong>Ensure it is easy for someone to actually use your project.</strong> Having a clear and friendly <strong><code>README.md</code></strong> will allow users to understand what the project is and what problem it solves.</li>
+                <li><strong>Explain how to contribute to your project.</strong> A <strong><code>CONTRIBUTING.md</code></strong> file allows contributers to get up to speed to start contributing.</li>
+                <li><strong>Diagrams</strong> are a quick and easy way to convey an application's architecture and flow.</li>
+              </div>
+              <!-- .end .column -->
+              <div class="column">
+                <code><strong>README.md</strong></code>
+                <pre># Project Title
+<font color ="#696969">One Paragraph of project description goes here</font>
+
+## Getting Started
+<font color ="#696969">These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.</font>
+
+### Installing
+<font color ="#696969">A step by step series of examples that tell you have to get a development env running</font>
+
+## Running the tests
+<font color ="#696969">Explain how to run the automated tests for this system</font>
+
+## Deployment
+<font color ="#696969">Add additional notes about how to deploy this on a live system</font>
+
+## Contributing
+<font color ="#696969">Please read [CONTRIBUTING.md] for details on our code of conduct, and the process for submitting pull requests to us.</font>
+
+## Versioning
+## Authors
+## License
+## Acknowledgements</pre>
+              </div>
+              <!-- .end .column -->
+            </div>
+            <!-- .end .grid -->
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section>
+          <span class="background-right" style="background-image:url('../static/images/iphone.png')"></span>
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap">
+            <div class="content-left">
+              <h2><strong>Community</strong></h2>
+              <p>Healthy, thriving communities help to fuel the countless hours put into open source projects. Community is at the heart of open source.</p>
+              <div class="content-left">
+                <h3>Benefit 1</h3>
+                <p>The easiest way to make HTML presentations. Incredibly versatile. 120+ slides.</p>
+              </div>
+              <!-- .end .content-left -->
+              <div class="content-left">
+                <h3>Benefit 2</h3>
+                <p>The art of storytelling. Inspire teams, fascinate customers, and gain attention from investors.</p>
+              </div>
+              <!-- .end .content-left -->
+            </div>
+            <!-- .end .content-left -->
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section class="bg-black-blue">
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap">
+            <blockquote class="text-quote">
+              <p>Given a large enough beta-tester and co-developer base, almost every problem will be characterized quickly and the fix obvious to someone.</p>
+              <p><cite><a href="https://en.wikipedia.org/wiki/Linus%27s_Law">Eric S. Raymond</a>.</cite></p>
+            </blockquote>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section class="bg-black-blue">
+          <span class="background-bottom dark" style="background-image:url('https://source.unsplash.com/wn7Vdl8_yXc/1600x800')"></span>
+          <div class="wrap size-50">
+            <h2><strong>Contribute</strong></h2>
+            <p>This presentation is open source and I would appreciate your feedback and support.</p>
+            <p>
+              <a href="https://github.com/T-Wong/iss-slides" class="button" title="Button">
+                <svg class="fa-github">
+                  <use xlink:href="#fa-github"></use>
+                </svg>
+                GitHub
+              </a>
+            </p>
+          </div>
+        </section>
+      </article>
+    </main>
+    <!--main-->
+
+    <!-- Required -->
+    <script src="static/js/webslides.js"></script>
+
+    <script>
+      window.ws = new WebSlides();
+    </script>
+
+    <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
+    <script defer src="static/js/svg-icons.js"></script>
+
+  </body>
+</html>
